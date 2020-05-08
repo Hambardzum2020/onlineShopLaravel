@@ -1,0 +1,153 @@
+#signup_height {
+    height: 800px;
+}
+
+#profPicture {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#color {
+    color: black!important;
+}
+
+#iColor {
+    color: #B08EAD!important;
+}
+
+#iColorSpan {
+    background-color: #B08EAD!important;
+}
+.wrong{
+    color: red;
+    margin-left: 34px;
+    display: none;
+}
+.withAndHeight {
+    width: 500px;
+    height: 450px;
+}
+
+.img_carusel{
+    height: 650px;
+}
+.ham{
+    display: none;
+}
+.countCart{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    color: white;
+}
+
+.countWish{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    color: white;
+}
+.countWish1{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    color: white;
+}
+
+#btn_cart{
+    width: 197px;
+    height: 55px;
+}
+
+#btn_decr{
+    text-decoration: none;
+    border-left: none;
+}
+
+.hamC{
+    font-size: 50px!important;
+    color: #B08EAD
+}
+.i_div{
+    width: 150px!important;
+    justify-content: space-between!important;
+}
+.heartDiv{
+    width: 25px;
+}
+
+.heart{
+    animation: heartmove 1s infinite;
+}
+.countWish{
+    margin-left: 30px;
+}
+.countWish1{
+    margin-left: 5px;
+}
+@keyframes heartmove {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 25px;
+    }
+}
+
+.div_range_style{
+    position: fixed;
+    left: -250px;
+    margin-top: 10%;
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    z-index: 10000;
+    background-color: white;
+}
+.div_range_style input{
+    margin-top: 11%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn_range{
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-bottom: 2%;
+    transform: translate(-50%,-50%);
+}
+#slaq-right{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    margin-top: -50%;
+    margin-left: 110.5%;
+    position: absolute;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #B08EAD;
+	border-bottom: 25px solid transparent;
+}
+#slaq-left{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    margin-top: -60%;
+    margin-left: 110.5%;
+    position: absolute;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #B08EAD;
+	border-bottom: 25px solid transparent;
+}
+
+#div_textarea{
+    width: 100%;
+    height: 400px;
+}
